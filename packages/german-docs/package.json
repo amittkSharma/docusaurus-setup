@@ -1,4 +1,9 @@
 {
+  "name": "repo-docs",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Documentation",
+  "license": "UNLICENSED",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -9,6 +14,6 @@
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.5.1"
+    "docusaurus": "1.5.1"
   }
 }

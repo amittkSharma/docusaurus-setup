@@ -3,13 +3,21 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
-    "docs": {},
-    "links": {},
+    "tagline": "Website for all technical documentation...",
+    "docs": {
+      "german-tutorial/prepositions/prepositions": {
+        "title": "prepositions",
+        "sidebar_label": "prepositions"
+      }
+    },
+    "links": {
+      "prepositions": "prepositions",
+      "Help": "Help"
+    },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Introduction": "Introduction",
+      "Getting Started": "Getting Started",
+      "Guides": "Guides"
     }
   },
   "pages-strings": {
