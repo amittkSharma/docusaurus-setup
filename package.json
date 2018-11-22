@@ -2,6 +2,18 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.1.4"
+    "lerna": "3.4.0",
+    "prettier": "1.14.2",
+    "pretty-quick": "1.7.0"
+  },
+  "scripts": {
+    "prebuild": "lerna bootstrap --hoist",
+    "build": "lerna run build --stream",
+    "clean": "lerna clean --yes",
+    "watch": "lerna run watch",
+    "test": "lerna run test",
+    "lint": "lerna run lint",
+    "changelog": "lerna run changelog",
+    "release": "lerna run release"
   }
 }
